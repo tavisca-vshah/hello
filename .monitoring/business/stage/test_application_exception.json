@@ -1,0 +1,33 @@
+{
+    "description": "Booking Failure",
+    "friendlyName": "Booking Failure",
+    "threshold": {
+        "condition": "gte",
+        "value": 1
+    },
+    "applicationName": "test application",
+    "environment": "stage",
+    "queryConfiguration": {
+        "query": "app_name:hotel_engine AND category:book_status AND status:failure",
+        "index": "logs-*",
+        "windowInSeconds": 300,
+        "aggregate": {
+            "type": "count",
+            "field": "*"
+        }
+    },
+    "notifications": {
+        "onError": [
+            {
+                "type": "teams_message",
+                "template": "business_fault_failure"
+            }
+        ],
+        "onRecovery": [
+            {
+                "type": "teams_message",
+                "template": "business_fault_recovery"
+            }
+        ]
+    }
+}
