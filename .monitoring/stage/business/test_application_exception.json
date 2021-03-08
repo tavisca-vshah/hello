@@ -12,7 +12,7 @@
         "index": "logs-*",
         "windowInSeconds": 300,
         "aggregate": {
-            "type": "count",
+            "type": "cout",
             "field": "*"
         }
     },
