@@ -6,13 +6,13 @@
         "value": 1
     },
     "applicationName": "promethus-poc",
-    "environment": "stage",
+    "environment": "non-prod",
     "queryConfiguration": {
-        "query": "app_name:promethus_poc or type:exception",
+        "query": "app_name:promethus_poc AND type:exception",
         "index": "logs-*",
         "windowInSeconds": 300,
         "aggregate": {
-            "type": "cout",
+            "type": "count",
             "field": "*"
         }
     },
@@ -20,13 +20,13 @@
         "onError": [
             {
                 "type": "teams_message",
-                "template": "business_fault_failure"
+                "template": "business_fault_failur"
             }
         ],
         "onRecovery": [
             {
                 "type": "teams_message",
-                "template": "business_fault_recovery"
+                "template": "business_fault_recover"
             }
         ]
     }
