@@ -2,11 +2,11 @@
     "description": "Prometheus Poc alarm",
     "friendlyName": "Prometheus POC alarm",
     "threshold": {
-        "condition": "eqd",
+        "condition": "gte",
         "value": 1
     },
     "applicationName": "promethus-poc",
-    "environment": "non-prod",
+    "environment": "stage",
     "queryConfiguration": {
         "query": "app_name:promethus_poc AND type:exception",
         "index": "logs-*",
@@ -19,14 +19,14 @@
     "notifications": {
         "onError": [
             {
-                "type": "teams_message",
-                "template": "business_fault_failur"
+                "type": "teams_messages",
+                "template": "business_fault_failure"
             }
         ],
         "onRecovery": [
             {
-                "type": "teams_message",
-                "template": "business_fault_recover"
+                "type": "teams_messages",
+                "template": "business_fault_recovery"
             }
         ]
     }
