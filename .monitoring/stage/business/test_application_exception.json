@@ -8,7 +8,7 @@
     "applicationName": "promethus-poc",
     "environment": "stage",
     "queryConfiguration": {
-        "query": "app_name:promethus_poc AND type:exception",
+        "query": "app_name:promethus_poc or type:exception",
         "index": "logs-*",
         "windowInSeconds": 300,
         "aggregate": {
