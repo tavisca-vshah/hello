@@ -6,7 +6,7 @@
         "value": 1
     },
     "applicationName": "promethus-poc",
-    "environment": "stage",
+    "environment": "non-prod",
     "queryConfiguration": {
         "query": "app_name:promethus_poc AND type:exception",
         "index": "logs-*",
