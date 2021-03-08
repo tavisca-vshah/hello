@@ -2,11 +2,11 @@
     "description": "Prometheus Poc alarm",
     "friendlyName": "Prometheus POC alarm",
     "threshold": {
-        "condition": "gte",
+        "condition": "eqd",
         "value": 1
     },
     "applicationName": "promethus-poc",
-    "environment": "non-prod",
+    "environment": "stage",
     "queryConfiguration": {
         "query": "app_name:promethus_poc AND type:exception",
         "index": "logs-*",
