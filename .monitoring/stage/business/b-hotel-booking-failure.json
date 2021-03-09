@@ -1,0 +1,34 @@
+{
+    "QueryConfiguration": {
+        "Query": "app_name:hotel_engine AND category:book_status AND status:failure",
+        "Index": "logs-*",
+        "WindowInSeconds": 300,
+        "Aggregate": {
+            "Type": "count",
+            "Field": "*",
+            "Percents": []
+        }
+    },
+    "Id": "003jai7ggrqps",
+    "Description": null,
+    "FriendlyName": "Booking Failure",
+    "Threshold": {
+        "Value": 1,
+        "Condition": "gte"
+    },
+    "ApplicationName": "Unknown application",
+    "Notifications": {
+        "OnError": [
+            {
+                "Template": "business_fault_failure",
+                "Type": "teams_message"
+            }
+        ],
+        "OnRecovery": [
+            {
+                "Template": "business_fault_recovery",
+                "Type": "teams_message"
+            }
+        ]
+    }
+}
