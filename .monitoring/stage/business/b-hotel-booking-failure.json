@@ -10,7 +10,7 @@
         }
     },
     "Id": "003jai7ggrqps",
-    "Description": null,
+    "Description": "booking alarm failure",
     "FriendlyName": "Booking Failure",
     "Threshold": {
         "Value": 1,
