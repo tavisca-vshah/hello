@@ -2,7 +2,7 @@
     "description": "Prometheus Poc alarm",
     "friendlyName": "Prometheus POC alarm",
     "threshold": {
-        "condition": "gte",
+        "condition": "lt",
         "value": 1
     },
     "applicationName": "promethus-poc",
