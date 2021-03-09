@@ -11,7 +11,7 @@
     },
     "Id": "003jai7ggrqps",
     "Description": "booking alarm failure",
-    "FriendlyName": "",
+    "FriendlyName": "booking Alarm",
     "Threshold": {
         "Value": 1,
         "Condition": "gte"
@@ -27,7 +27,7 @@
         "OnRecovery": [
             {
                 "Template": "business_fault_recovery",
-                "Type": "teams_messages"
+                "Type": "teams_message"
             }
         ]
     }
