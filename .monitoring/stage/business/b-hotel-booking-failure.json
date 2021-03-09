@@ -16,7 +16,7 @@
         "Value": 1,
         "Condition": "gte"
     },
-    "ApplicationName": "",
+    "ApplicationName": "Unknown application",
     "Notifications": {
         "OnError": [
             {
