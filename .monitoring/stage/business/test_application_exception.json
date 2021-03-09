@@ -19,13 +19,13 @@
     "notifications": {
         "onError": [
             {
-                "type": "teams_messages",
+                "type": "teams_message",
                 "template": "business_fault_failure"
             }
         ],
         "onRecovery": [
             {
-                "type": "teams_messages",
+                "type": "teams_message",
                 "template": "business_fault_recovery"
             }
         ]
