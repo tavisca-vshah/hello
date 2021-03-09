@@ -14,7 +14,7 @@
     "FriendlyName": "Booking Failure",
     "Threshold": {
         "Value": 1,
-        "Condition": "eq"
+        "Condition": "gte"
     },
     "ApplicationName": "Unknown application",
     "Notifications": {
