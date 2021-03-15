@@ -13,19 +13,19 @@
     "FriendlyName": "booking Alarm",
     "Threshold": {
         "Value": 1,
-        "Condition": "gte"
+        "Condition": "eq"
     },
     "ApplicationName": "promethus-poc",
     "Notifications": {
         "OnError": [
             {
                 "Template": "business_fault_failure",
-                "Type": "teams_message"
+                "Type": "teams_messages"
             }
         ],
         "OnRecovery": [
             {
-                "Template": "business_fault_recovery",
+                "Template": "business_fault_recover",
                 "Type": "teams_message"
             }
         ]
