@@ -1,0 +1,21 @@
+//Response For : calltree reponse
+
+// +-----------------------------------------------------------------------------------------------+
+// |                                        Validations Error                                      |
+// +-----------------------------------+-----------------------------------------------------------+
+// | Validation                        | Error Message                                             |
+// +-----------------------------------+-----------------------------------------------------------+
+// | Mandatory field - applicationName | The value of the {fieldName} cannot be null or empty.     |
+// +-----------------------------------+-----------------------------------------------------------+
+// | {level-number}.firstName          | The value of the {fieldName} cannot be null or empty.     |
+// +-----------------------------------+-----------------------------------------------------------+
+// | {level-number}.LastName           | The value of the {fieldName} cannot be null or empty.     |
+// +-----------------------------------+-----------------------------------------------------------+
+// | {level-number}.PhoneNumber        | The value of the {fieldName} cannot be null or empty.     |
+// +-----------------------------------+-----------------------------------------------------------+
+// | {level-number}.PhoneNumber        | The value of the {fieldName} must contains Country Code.  |
+// +-----------------------------------+-----------------------------------------------------------+
+// | {level-number}.Email              | The value of the {fieldName} cannot be null or empty.     |
+// +-----------------------------------+-----------------------------------------------------------+
+// | {level-number}.EmployeeId         | The value of the {fieldName} cannot be null or empty.     |
+// +-----------------------------------+-----------------------------------------------------------+

@@ -9,24 +9,23 @@
             "Percents": []
         }
     },
-    "Id": "003jai7ggrqps",
     "Description": "booking alarm failure",
-    "FriendlyName": "Booking Failure",
+    "FriendlyName": "booking Alarm",
     "Threshold": {
         "Value": 1,
         "Condition": "eq"
     },
-    "ApplicationName": "Unknown application",
+    "ApplicationName": "promethus-poc",
     "Notifications": {
         "OnError": [
             {
                 "Template": "business_fault_failure",
-                "Type": "teams_message"
+                "Type": "teams_messages"
             }
         ],
         "OnRecovery": [
             {
-                "Template": "business_fault_recovery",
+                "Template": "business_fault_recover",
                 "Type": "teams_message"
             }
         ]

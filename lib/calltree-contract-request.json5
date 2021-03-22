@@ -1,0 +1,24 @@
+{
+    "applicationName" : "prometheus-poc",
+    "level-1" : {
+    "firstName" : "Vikram",
+    "lastName" : "shah",
+    "PhoneNumber" : "9827654981",
+    "Email" : "vshah@tavisca.com",
+    "EmployeeId" : "1133"
+},
+"level-2" : {
+    "firstName" : "Vikram",
+    "lastName" : "shah",
+    "PhoneNumber" : "9827654981",
+    "Email" : "vshah@tavisca.com",
+    "EmployeeId" : "1133"
+},
+"level-3" : {
+    "firstName" : "Vikram",
+    "lastName" : "shah",
+    "PhoneNumber" : "9827654981",
+    "Email" : "vshah@tavisca.com",
+    "EmployeeId" : "1133"
+}
+}
