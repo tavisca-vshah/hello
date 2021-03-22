@@ -5,7 +5,7 @@
         "condition": "lte",
         "value": 1
     },
-    "applicationName": "promethus-poc",
+    "applicationName": "promethus-poc-xyz",
     "environment": "stage",
     "queryConfiguration": {
         "query": "app_name:promethus_poc AND type:exception",
